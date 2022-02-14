@@ -8,7 +8,7 @@ class PostBase(BaseModel):
     content: str
     published: bool = True
     # rating: Optional[int] = None
-    # yourm sayırı
+    # yorum satırı
 
 class PostCreate(PostBase):
     pass

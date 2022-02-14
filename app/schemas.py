@@ -9,7 +9,6 @@ class PostBase(BaseModel):
     published: bool = True
     # rating: Optional[int] = None
     # yorum satırı
-
 class PostCreate(PostBase):
     pass
 
